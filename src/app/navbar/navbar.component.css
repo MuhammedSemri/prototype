@@ -16,6 +16,7 @@
 .navbar{
     background-color: #339dda;
     padding: 5px;
+    border-radius: 0%;
 }
 
 .nav >li>a{

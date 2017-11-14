@@ -1,7 +1,16 @@
 .right{
     margin-top: 30px;
-    color: black;
 }
+
+.right >li >a{
+    color: black !important;
+
+}
+
+.right > li >a:hover{
+    background-color: #ecf0f1 !important;
+}
+
 
 .marg{
     margin-top: 20px;
