@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { RouterModule,Routes } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component'
+import { NavbarComponent } from './navbar/navbar.component';
+import { PostComponent } from './post/post.component'
 
 
 const appRoutes: Routes = [
@@ -21,6 +22,7 @@ const appRoutes: Routes = [
     AppComponent,
     HomeComponent,
     NavbarComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
