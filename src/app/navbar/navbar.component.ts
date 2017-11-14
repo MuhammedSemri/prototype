@@ -8,7 +8,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   logo = '../assets/g4782.png';
-  profile = '../assets/profile.jpg';
+  profile = '../assets/profile.png';
   
   constructor() { }
 
