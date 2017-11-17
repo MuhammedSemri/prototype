@@ -1,3 +1,21 @@
 .post{
-    margin-left: 28px;
+    margin-left: 100px;
+    background-color: white;
+    margin-right: 300px;
+    box-shadow: 0 2px 2px #888888;
+    margin-bottom: 5px;
+}
+
+.post > p {
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.post > div{
+    margin-top: 20px;
+}
+
+.post > div >img{
+    max-width: 500px;
 }
