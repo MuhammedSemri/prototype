@@ -4,6 +4,8 @@
     margin-right: 300px;
     box-shadow: 0 2px 2px #888888;
     margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .post > p {
@@ -18,4 +20,17 @@
 
 .post > div >img{
     max-width: 500px;
+}
+
+
+h3{
+    font-size: 20px;
+}
+
+.span4 > img{
+    
+    margin-right: 10px;
+}
+.paragraphs{
+    margin-left: 80px;
 }
