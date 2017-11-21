@@ -4,14 +4,13 @@
     margin-right: 300px;
     box-shadow: 0 2px 2px #888888;
     margin-bottom: 5px;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .post > p {
     margin-left: 100px;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .post > div{
@@ -34,3 +33,20 @@ h3{
 .paragraphs{
     margin-left: 80px;
 }
+
+.buttons{
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: #95a5a6;
+    padding-bottom: 10px;
+    
+}
+
+.button{
+    background-color: white;
+    margin-top: 7px;
+    margin-left: 25px;
+    border: 0;
+    padding: 10px;
+}
+
