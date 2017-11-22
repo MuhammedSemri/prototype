@@ -7,7 +7,8 @@ import { HomeComponent } from './home/home.component';
 
 import { RouterModule,Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
-import { PostComponent } from './post/post.component'
+import { PostComponent } from './post/post.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 const appRoutes: Routes = [
@@ -17,6 +18,7 @@ const appRoutes: Routes = [
   },
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  {path: 'profile', component: ProfileComponent},
 ];
 
 @NgModule({
@@ -25,6 +27,7 @@ const appRoutes: Routes = [
     HomeComponent,
     NavbarComponent,
     PostComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
