@@ -9,7 +9,7 @@
     left: 15px;
     padding-top: 6px;
     margin-left: 45px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 50%;
     transition: all 0.3s ease 0s;
     
@@ -27,6 +27,26 @@
     font-size: 15px;
 }
 
+.txt{
+    font-weight: bolder;
+    color: rgb(52, 73, 94);
+    
+    font-size: 30px;
+}
+
+.txt2{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.txt2:hover{
+    text-decoration: none;
+    color: white;
+}
+.navbar-header{
+    margin-top: 3px;
+    margin-left: 15px !important;
+}
 .nav >li>a{
     color: white;
     font-weight: bold;
