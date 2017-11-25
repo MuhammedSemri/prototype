@@ -2,3 +2,35 @@ body{
     background-color: #ecf0f1;
     font-family: 'Roboto', sans-serif;
 }
+
+#profile-header{
+    background-color: rgb(52, 152, 219);
+    padding-bottom: 60px;
+    padding-top: 30px;
+    margin: auto;
+    width: 60%;
+    border: solid;
+    border-color: rgb(52, 152, 219);
+    border-width: 2px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#user-name{
+    color: white;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    
+    padding-bottom: 25px;
+}
+
+#profile-pic{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    
+}
+

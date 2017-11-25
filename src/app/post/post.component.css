@@ -54,7 +54,9 @@ h3{
 
 .button:hover{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
-    background-color: rgb(41, 128, 185);
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 128, 185);
+    font-weight: bolder;
     
 }
 
