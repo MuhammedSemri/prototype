@@ -31,6 +31,33 @@ body{
     margin-top: 40px;
     border-radius: 50%;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-    
 }
 
+.button-header{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background: rgb(41, 128, 185);
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-header:hover{
+    background-color: white;
+    color: rgb(52, 152, 219);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#chat{
+    display: inline-block;
+    margin-inline-start:100px;
+    margin-inline-end: 400px;
+}
+
+#hire{
+    display: inline-block;
+}
